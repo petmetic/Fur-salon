@@ -1,21 +1,23 @@
 :root{
-    --main bg-color: violet;
+    --main-bg-color: violet;
 }
-.container {
-    height: 100vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-}
+
+/*.container {*/
+/*    height: 100vh;*/
+/*    display: flex;*/
+/*    flex-direction: column;*/
+/*    justify-content: space-between;*/
+/*}*/
+
 .logo{
-    font-family: "Rubik Bubbles";
+    font-family: "Rubik Bubbles", serif;
     font-size: 45px;
 }
 .button-search{
     background-color: #7E57C2;
 }
 .background{
-    background-color: var(--main bg-color);
+    background-color: var(--main-bg-color);
 }
 .card-text-header{
     font-family: Montserrat, sans-serif;
@@ -35,4 +37,8 @@
     justify-content: space-between;
     align-content: space-around;
     align-items: center;
+}
+.card-img-top {
+    width: 24rem;
+    height: 28rem;
 }
