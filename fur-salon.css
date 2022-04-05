@@ -1,4 +1,4 @@
-:root{
+:root {
     --main-bg-color: violet;
 }
 
@@ -9,35 +9,43 @@
 /*    justify-content: space-between;*/
 /*}*/
 
-.logo{
+.logo {
     font-family: "Rubik Bubbles", serif;
     font-size: 45px;
 }
-.button-search{
+
+.button-search {
     background-color: #7E57C2;
 }
-.background{
-    background-color: var(--main-bg-color);
+
+.background {
+    background: rgb(238, 174, 202);
+    background: radial-gradient(circle, rgba(238, 174, 202, 1) 0%, rgba(148, 187, 233, 1) 100%);
 }
-.card-text-header{
+
+.card-text-header {
     font-family: Montserrat, sans-serif;
     font-weight: 300;
     font-size: 20px;
     color: black;
 }
-.card-services{
+
+.card-services {
     padding: 2rem;
 }
-.icon{
+
+.icon {
     width: 2rem;
     height: 2rem;
 }
+
 .footer {
     display: flex;
     justify-content: space-between;
     align-content: space-around;
     align-items: center;
 }
+
 .card-img-top {
     width: 24rem;
     height: 28rem;
