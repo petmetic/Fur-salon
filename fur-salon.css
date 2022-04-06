@@ -20,7 +20,12 @@
 }
 
 .button-search {
+    color: white;
+    border-color: transparent;
     background-color: #7E57C2;
+}
+.button-search:hover{
+    background-color:purple;
 }
 
 .background {
@@ -72,7 +77,7 @@
     font-family: Montserrat, sans-serif;
     font-weight: 100;
     font-size: 10px;
-    color: black;
+    color: #7E57C2;
 }
 
 .footer {
@@ -80,4 +85,7 @@
     justify-content: space-between;
     align-content: space-around;
     align-items: center;
+}
+.footer-img-middle{
+    width:100px;
 }
