@@ -62,10 +62,13 @@
 
 
 .card-img-top {
-    width: 24rem;
-    height: auto;
+    max-width:100%;
 }
-
+.cat-card{
+    min-height: 600px;
+    padding: 50px;
+    background-color: transparent;
+}
 .header-text-2 {
     font-family: Montserrat, sans-serif;
     font-weight: 500;
