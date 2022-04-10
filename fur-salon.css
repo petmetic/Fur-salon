@@ -2,13 +2,6 @@
     --main-bg-color: violet;
 }
 
-/*.container {*/
-/*    height: 100vh;*/
-/*    display: flex;*/
-/*    flex-direction: column;*/
-/*    justify-content: space-between;*/
-/*}*/
-
 .navbar-custom {
     padding-left: 20px;
     padding-right: 20px;
@@ -24,8 +17,9 @@
     border-color: transparent;
     background-color: #7E57C2;
 }
-.button-search:hover{
-    background-color:purple;
+
+.button-search:hover {
+    background-color: purple;
 }
 
 .background {
@@ -38,6 +32,7 @@
 }
 
 .header-text {
+    margin-bottom: 50px;
     font-family: Montserrat, sans-serif;
     font-weight: 600;
     font-size: 40px;
@@ -52,7 +47,7 @@
 }
 
 .card-services {
-    padding: 2rem;
+    padding: 1rem;
 }
 
 .icon {
@@ -60,15 +55,20 @@
     height: 2rem;
 }
 
+.text-in-card {
+    margin-bottom: 50px;
+}
 
 .card-img-top {
-    max-width:100%;
+    max-width: 100%;
 }
-.cat-card{
-    min-height: 600px;
+
+.cat-card {
+    min-height: 700px;
     padding: 50px;
-    background-color: transparent;
+    background-color: white;
 }
+
 .header-text-2 {
     font-family: Montserrat, sans-serif;
     font-weight: 500;
@@ -79,8 +79,20 @@
 .form-info {
     font-family: Montserrat, sans-serif;
     font-weight: 100;
-    font-size: 10px;
+    font-size: 20px;
     color: #7E57C2;
+    min-width: 100%;
+    margin: 3px;
+}
+.time-table{
+    border-color: black;
+
+}
+.about-us-kitty-pic{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
 }
 
 .footer {
@@ -88,7 +100,9 @@
     justify-content: space-between;
     align-content: space-around;
     align-items: center;
+    background-color: #7E57C2;
 }
-.footer-img-middle{
-    width:100px;
+
+.footer-img-middle {
+    width: 100px;
 }
